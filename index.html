@@ -54,28 +54,12 @@
  to { opacity: 1; }
  }
 
-
-.section {
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-    text-align: center; 
-    padding: 20px;
-    
+        .section {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
 }
-
-
-#audio {
-    flex-direction: column; 
-}
-
-#audio img, #audio audio {
-    width: 100%; 
-    max-width: 600px; 
-    margin: 0 0 20px 0; 
-}
-
     </style>
 </head>
 <body>
@@ -100,43 +84,43 @@
     <p>Это главная страница моего сайта. Меня зовут Айдана и на данный момент я являюсь студентом UIB.</p>
 </div>
 
-<div id="about" class="section1">
+<div id="about" class="section">
     <h2>Обо мне</h2>
     <p>Я люблю слшуать музыку, также, в мои увлечения входят ,игра на электрической гитаре и занятия спортом.</p>
 </div>
 
-<div id="skills" class="section2">
+<div id="skills" class="section">
     <h2>Навыки</h2>
     <p>Этот раздел посвящен моим навыкам и умениям. Я умею играть баскетбол и катаюсь на велосипеде.</p>
 </div>
 
-<div id="image" class="section3">
+<div id="image" class="section">
     <h2>Изображение</h2>
     <p>Это Я ^-^.</p>
     <img src="aiden.jpeg">
 </div>
 
 <div id="audio" class="section">
-    <h2>Аудио</h2>
-    <img src="smith.jpeg" alt="The Smiths">
-    <audio controls>
-     <source src="audio.mp3" type="audio/mpeg">
-     </audio>
+ <h2>Аудио</h2>
+ <audio controls>
+ <source src="audio.mp3">
+</audio>
+ <img src="smith.jpeg">
 </div>
 
- <div id="video" class="section4">
+ <div id="video" class="section">
  <h2>Видео</h2>
  <video controls>
  <source src="aiden1.mp4" type="video/mp4">
  </video>
 </div>
 
-<div id="map" class="section5">
+<div id="map" class="section">
  <h2>Карта</h2>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.306203117135!2d-74.04707532353113!3d40.68925343900716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25090129c363d%3A0x40c6a5770d25022b!2sStatue%20of%20Liberty!5e0!3m2!1sru!2skz!4v1712259937756!5m2!1sru!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23256.37613981138!2d76.95490328442382!3d43.2294738628774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836e51b0cd63ab%3A0x39d5ff3d73b7daac!2z0J_QsNGA0LDQtNCw0LnQtw!5e0!3m2!1sru!2skz!4v1712227034232!5m2!1sru!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
-<div id="animation" class="section6">
+<div id="animation" class="section">
  <h2>Анимация</h2>
  <p class="animate">БУ</p>
 </div>
